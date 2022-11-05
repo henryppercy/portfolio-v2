@@ -67,6 +67,10 @@ section {
   grid-template-rows: 15% 1fr 40% 10%;
 }
 
+svg {
+  fill: #352D29;
+}
+
 .home-heading {
   display: flex;
   justify-content: space-between;

@@ -73,6 +73,10 @@ section {
   grid-template-rows: 15% 1fr 40% 10%;
 }
 
+svg {
+  fill: $dark;
+}
+
 .home-heading {
   display: flex;
   justify-content: space-between;
