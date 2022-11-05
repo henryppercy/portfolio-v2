@@ -26,30 +26,88 @@ a:active {
 body {
   color: $dark;
   background-color: $light;
-  margin: 2rem 2.5rem;
+  margin: 0 2rem;
   padding: 0;
 }
 
-h1, h2 {
-  font-family: $heading;
+h1, h3 {
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: 4rem;
+  font-family: $heading;
+  font-weight: normal;
+  font-size: 3.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: $body-text;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: $heading;
+  font-weight: normal;
+  font-size: 5rem;
+  margin: 0;
+  line-height: 0.9;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.2rem;
 }
 
 nav {
   text-decoration: none;
+
+  align-self: center;
 }
 
-.home-dark-mode {
+section {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 15% 1fr 40% 10%;
+}
+
+.home-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .line {
-  width: 10rem;
+  width: 8rem;
   height: 0.1rem;
   background-color: $dark;
+}
+
+.heading {
+  align-self: center;
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-footer {
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-footer-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
 }
