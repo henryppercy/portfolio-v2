@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
-$heading: 'Aladin', cursive;
-$body-text: 'Helvetica', sans-serif;
-$light: #FAF4E4;
-$dark: #352D29;
-
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -24,14 +19,14 @@ a:active {
 }
 
 body {
-  color: $dark;
-  background-color: $light;
+  color: #352D29;
+  background-color: #FAF4E4;
   margin: 2rem 2.5rem;
   padding: 0;
 }
 
 h1, h2 {
-  font-family: $heading;
+  font-family: "Aladin", cursive;
 }
 
 h1 {
@@ -51,5 +46,7 @@ nav {
 .line {
   width: 10rem;
   height: 0.1rem;
-  background-color: $dark;
+  background-color: #352D29;
 }
+
+/*# sourceMappingURL=App.css.map */
