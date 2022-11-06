@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+.dark-mode {
+  --bgColour: #352D29;
+  --textColour: #FAF4E4;
+}
+
+.light-mode {
+  --bgColour: #FAF4E4;
+  --textColour: #352D29;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -19,10 +29,11 @@ a:active {
 }
 
 body {
-  color: #352D29;
-  background-color: #FAF4E4;
+  color: var(--textColour);
+  background-color: var(--bgColour);
   margin: 0 2rem;
   padding: 0;
+  transition: background-color 0.3s ease-in-out;
 }
 
 h1, h2, h3 {
@@ -53,17 +64,22 @@ h3 {
 }
 
 svg {
-  fill: #352D29;
+  fill: var(--textColour);
+  transition: background-color 0.3s ease-in-out;
 }
 
 nav {
   margin-bottom: 6rem;
 }
 
+section {
+  height: 100vh;
+}
+
 header.home {
-  background-color: #FAF4E4;
   width: 100%;
   padding: 2rem 2rem 1rem;
+  transition: background-color 0.3s ease-in-out;
   position: fixed;
   top: 0;
   left: 0;
@@ -73,10 +89,10 @@ header.home {
 }
 
 header.content-page {
-  background-color: #FAF4E4;
+  background-color: var(--bgColour);
   width: 100%;
   padding: 2rem 2rem 1rem 0;
-  box-shadow: 0px 0px 2px 2px #FAF4E4;
+  transition: background-color 0.3s ease-in-out;
   position: fixed;
   top: 0;
   left: 0;
@@ -92,7 +108,8 @@ header.content-page div {
 header.content-page .line {
   width: 6rem;
   height: 0.1rem;
-  background-color: #352D29;
+  background-color: var(--textColour);
+  transition: background-color 0.3s ease-in-out;
 }
 
 main.home {
@@ -109,8 +126,7 @@ main.home h2 {
 }
 
 main.about {
-  height: 100vh;
-  margin: 8rem 0 18rem;
+  padding: 10rem 0 10rem;
 }
 main.about h3 {
   font-size: 2rem;
@@ -120,7 +136,8 @@ main.about h3 {
 .line {
   width: 8rem;
   height: 0.1rem;
-  background-color: #352D29;
+  background-color: var(--textColour);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .heading {
@@ -136,9 +153,9 @@ main.about h3 {
 
 footer {
   width: 100%;
-  background-color: #FAF4E4;
+  background-color: var(--bgColour);
   padding: 2rem;
-  box-shadow: 0px 0px 2px 2px #FAF4E4;
+  transition: background-color 0.3s ease-in-out;
   position: fixed;
   bottom: 0;
   left: 0;

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import "./styles/light-dark-theme";
+
 $heading: 'Aladin', cursive;
 $body-text: 'Helvetica', sans-serif;
-$light: #FAF4E4;
-$dark: #352D29;
+$colourOne: var(--bgColour);
+$colourTwo: var(--textColour);
+$darkModeTransition: background-color 0.3s ease-in-out;
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -24,10 +27,11 @@ a:active {
 }
 
 body {
-  color: $dark;
-  background-color: $light;
+  color: $colourTwo;
+  background-color: $colourOne;
   margin: 0 2rem;
   padding: 0;
+  transition: $darkModeTransition;
 }
 
 h1, h2, h3 {
@@ -58,18 +62,23 @@ h3 {
 }
 
 svg {
-  fill: $dark;
+  fill: $colourTwo;
+  transition: $darkModeTransition;
 }
 
 nav {
   margin-bottom: 6rem;
 }
 
+section {
+  height: 100vh;
+}
+
 // TODO add mixin for header
 header.home {
-  background-color: $light;
   width: 100%;
   padding: 2rem 2rem 1rem;
+  transition: $darkModeTransition;
 
   position: fixed;
   top: 0;
@@ -81,11 +90,10 @@ header.home {
 }
 
 header.content-page {
-  background-color: $light;
+  background-color: $colourOne;
   width: 100%;
   padding: 2rem 2rem 1rem 0;
-  box-shadow: 0px 0px 2px 2px $light;
-
+  transition: $darkModeTransition;
 
   position: fixed;
   top: 0;
@@ -104,7 +112,8 @@ header.content-page {
   .line {
     width: 6rem;
     height: 0.1rem;
-    background-color: $dark;
+    background-color: $colourTwo;
+    transition: $darkModeTransition;
   }
 }
 
@@ -124,8 +133,7 @@ main.home {
 }
 
 main.about {
-  height: 100vh;
-  margin: 8rem 0 18rem;
+  padding: 10rem 0 10rem;
 
   h3 {
     font-size: 2rem;
@@ -136,7 +144,8 @@ main.about {
 .line {
   width: 8rem;
   height: 0.1rem;
-  background-color: $dark;
+  background-color: $colourTwo;
+  transition: $darkModeTransition;
 }
 
 .heading {
@@ -152,9 +161,9 @@ main.about {
 
 footer {
   width: 100%;
-  background-color: $light;
+  background-color: $colourOne;
   padding: 2rem;
-  box-shadow: 0px 0px 2px 2px $light;
+  transition: $darkModeTransition;
 
   position: fixed;
   bottom: 0;
