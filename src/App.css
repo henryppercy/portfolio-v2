@@ -25,7 +25,7 @@ body {
   padding: 0;
 }
 
-h1, h3 {
+h1, h2, h3 {
   text-transform: uppercase;
 }
 
@@ -37,9 +37,11 @@ h1 {
 }
 
 h2 {
-  font-family: "Helvetica", sans-serif;
-  font-size: 1rem;
+  font-family: "Aladin", cursive;
+  font-weight: normal;
+  font-size: 5rem;
   margin: 0;
+  line-height: 0.9;
 }
 
 h3 {
@@ -50,40 +52,75 @@ h3 {
   line-height: 0.9;
 }
 
-p {
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin: 0.2rem;
-}
-
-section {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 15% 1fr 10%;
-}
-
 svg {
   fill: #352D29;
 }
 
 nav {
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
 }
 
-.home-heading {
+header.home {
+  background-color: #FAF4E4;
+  width: 100%;
+  padding: 2rem 2rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header.content-page {
+  background-color: #FAF4E4;
+  width: 100%;
+  padding: 2rem 2rem 1rem 0;
+  box-shadow: 0px 0px 2px 2px #FAF4E4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.content-page div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header.content-page .line {
+  width: 6rem;
+  height: 0.1rem;
+  background-color: #352D29;
+}
+
+main.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+main.home h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  margin: 0;
+}
+
+main.about {
+  height: 100vh;
+  margin: 8rem 0 18rem;
+}
+main.about h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 
 .line {
   width: 8rem;
   height: 0.1rem;
   background-color: #352D29;
-}
-
-.home-center-content {
-  align-self: end;
 }
 
 .heading {
@@ -97,19 +134,39 @@ nav {
   gap: 1rem;
 }
 
-.home-footer {
-  padding: 1rem 0;
+footer {
+  width: 100%;
+  background-color: #FAF4E4;
+  padding: 2rem;
+  box-shadow: 0px 0px 2px 2px #FAF4E4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
-.home-footer-copyright {
+.copyright {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: end;
+}
+.copyright p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.2rem;
+}
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tech-stack ul {
+  list-style-image: url("../images/chevron.svg");
+  padding-left: 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */

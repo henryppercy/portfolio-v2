@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 const Home = () => {
     return (
         <section>
-            <div className="home-heading">
+            <header className="home">
                 <div className="line"></div>
                 <svg className="" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 20.625C11.8934 20.625 9.375 18.1066 9.375 15C9.375 11.8934 11.8934 9.375 15 9.375C18.1066 9.375 20.625 11.8934 20.625 15C20.625 18.1066 18.1066 20.625 15 20.625ZM15 22.5C19.1421 22.5 22.5 19.1421 22.5 15C22.5 10.8579 19.1421 7.5 15 7.5C10.8579 7.5 7.5 10.8579 7.5 15C7.5 19.1421 10.8579 22.5 15 22.5Z"/>
@@ -16,9 +16,9 @@ const Home = () => {
                     <path d="M25.6066 25.6067C25.2405 25.9728 24.6469 25.9728 24.2808 25.6067L21.6291 22.955C21.263 22.5889 21.263 21.9953 21.6291 21.6292C21.9952 21.2631 22.5888 21.2631 22.9549 21.6292L25.6066 24.2809C25.9727 24.647 25.9727 25.2406 25.6066 25.6067Z"/>
                     <path d="M8.37087 8.37096C8.00476 8.73707 7.41116 8.73707 7.04505 8.37096L4.3934 5.7193C4.02728 5.35319 4.02728 4.7596 4.3934 4.39348C4.75951 4.02736 5.35311 4.02736 5.71922 4.39348L8.37087 7.04513C8.73699 7.41125 8.73699 8.00484 8.37087 8.37096Z"/>
                 </svg>
-            </div>
+            </header>
 
-            <div className="home-center-content">
+            <main className="home">
                 <div className="heading">
                     <h1>Henry Percy</h1>
                     <h2>Junior Software Developer</h2>
@@ -29,9 +29,10 @@ const Home = () => {
                     <Link to="/work"><h3>Work</h3></Link>
                     <Link to="/contact"><h3>Contact</h3></Link>
                 </nav>
-            </div>
+            </main>
 
-            <div className="home-footer">
+
+            <footer>
                 <div className="contact-logos">
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.30292 18.9576C6.30292 20.6921 4.88599 22.1091 3.15146 22.1091C1.41694 22.1091 0 20.6921 0 18.9576C0 17.2231 1.41694 15.8062 3.15146 15.8062H6.30292V18.9576Z"/>
@@ -53,11 +54,11 @@ const Home = () => {
                         <path d="M0.0929726 2.91645C0.471994 1.24657 1.96542 0 3.75 0H26.25C28.0346 0 29.528 1.24657 29.907 2.91645L15 12.0263L0.0929726 2.91645ZM0 5.05703V18.3761L10.881 11.7065L0 5.05703ZM12.6776 12.8045L0.359758 20.3548C0.961133 21.623 2.25315 22.5 3.75 22.5H26.25C27.7469 22.5 29.0389 21.623 29.6402 20.3548L17.3224 12.8045L15 14.2237L12.6776 12.8045ZM19.119 11.7065L30 18.3761V5.05703L19.119 11.7065Z"/>
                     </svg>
                 </div>
-                <div className="home-footer-copyright">
+                <div className="copyright">
                     <p>© 2022 PERCY</p>
                     <div className="line"></div>
                 </div>
-            </div>
+            </footer>
         </section>
     );
 }
