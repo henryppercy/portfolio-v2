@@ -1,17 +1,10 @@
-import {Link} from "react-router-dom";
-import DarkModeToggle from "../components/DarkModeToggle";
+import MobileContentHeader from "../components/MobileContentHeader";
 import MobileFooter from "../components/MobileFooter";
 
 const About = () => {
     return (
         <section>
-            <header className="content-page">
-                <div>
-                    <div className="line"></div>
-                    <Link to="/"><a>HOME</a></Link>
-                </div>
-                <DarkModeToggle></DarkModeToggle>
-            </header>
+            <MobileContentHeader></MobileContentHeader>
 
             <main className="about">
                 <h2>About</h2>
