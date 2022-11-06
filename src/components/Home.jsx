@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
@@ -18,16 +18,18 @@ const Home = () => {
                 </svg>
             </div>
 
-            <div className="heading">
-                <h1>Henry Percy</h1>
-                <h2>Junior Software Developer</h2>
-            </div>
+            <div className="home-center-content">
+                <div className="heading">
+                    <h1>Henry Percy</h1>
+                    <h2>Junior Software Developer</h2>
+                </div>
 
-            <nav>
-                <Link to="about"><h3>About</h3></Link>
-                <Link to="work"><h3>Work</h3></Link>
-                <Link to="contact"><h3>Contact</h3></Link>
-            </nav>
+                <nav>
+                    <Link to="/about"><h3>About</h3></Link>
+                    <Link to="/work"><h3>Work</h3></Link>
+                    <Link to="/contact"><h3>Contact</h3></Link>
+                </nav>
+            </div>
 
             <div className="home-footer">
                 <div className="contact-logos">
@@ -61,10 +63,3 @@ const Home = () => {
 }
 
 export default Home;
-
-// Link code pattern
-// <div>
-//     <h1>This is the home page</h1>
-//     <Link to="about">Click to view our about page</Link>
-//     <Link to="contact">Click to view our contact page</Link>
-// </div>

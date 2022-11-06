@@ -5,19 +5,14 @@ import App from './App';
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
+    Route, BrowserRouter,
 } from 'react-router-dom';
-import ErrorPage from './error-page';
-
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App/>,
-        errorElement: <ErrorPage />,
-    },
-]);
+// TODO add error page
+// import ErrorPage from './error-page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={router} />
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
 );
