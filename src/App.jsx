@@ -1,8 +1,8 @@
 import './App.scss';
-import Home from './components/Home';
-import About from './components/About';
-import Work from './components/Work';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
 
 import {Route, Routes} from "react-router-dom";
 
