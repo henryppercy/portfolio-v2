@@ -5,8 +5,7 @@ const Contact = () => {
     return (
         <section>
             <MobileContentHeader></MobileContentHeader>
-
-            <main className="work">
+            <main className="contact">
                 <h2>Get In Touch</h2>
                 <p>I’m currently open and looking for work so please get in touch if you have any Junior Developer roles available.</p>
                 <p>The best way to reach me is to send an email but feel free to reach out on LinkedIn.</p>
