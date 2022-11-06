@@ -6,7 +6,6 @@ const DarkModeToggle = () => {
     const darkMode = useDarkMode(true);
     const theme = useTheme();
 
-
     return (
         <svg onClick={darkMode.toggle} className="" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             {theme === "dark-mode" ? "Light mode" : "Dark mode"}
