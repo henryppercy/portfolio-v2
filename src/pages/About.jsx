@@ -1,5 +1,5 @@
-import MobileContentHeader from "../components/MobileContentHeader";
-import MobileFooter from "../components/MobileFooter";
+import MobileContentHeader from "../../components/MobileContentHeader";
+import MobileFooter from "../../components/MobileFooter";
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                 <p>Which is why I now find myself at iO Academy learning how to build full stack apps as part of an Agile team. While at iO I have found a true passion for programming from building intuitive UIs to robust APIs.</p>
                 <h3>SKILLS</h3>
                 <p>Agile Methodologies / Sprint Planning / Wireframing / Database Design / Scrum Master</p>
-                <h3>TECHNOLOGY / TOOLING</h3>
+                <h3>TECHNOLOGY & TOOLING</h3>
                 <div className="tech-stack">
                     <ul>
                         <li>JavaScript (ES6)</li>

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
-@import "./styles/light-dark-theme";
+@import "styles/light-dark-theme";
 
+//Global
 $heading: 'Aladin', cursive;
 $body-text: 'Helvetica', sans-serif;
-$colourOne: var(--bgColour);
-$colourTwo: var(--textColour);
+$colourOne: #FAF4E4FF;
+$colourTwo: #352D29FF;
 $darkModeTransition: background-color 0.3s ease-in-out;
 
 *, *::before, *::after {
@@ -75,6 +76,7 @@ section {
 }
 
 // TODO add mixin for header
+// Header for home
 header.home {
   width: 100%;
   padding: 2rem 2rem 1rem;
@@ -89,6 +91,7 @@ header.home {
   align-items: center;
 }
 
+// Header for all content pages
 header.content-page {
   background-color: $colourOne;
   width: 100%;
@@ -117,6 +120,7 @@ header.content-page {
   }
 }
 
+// Home page
 main.home {
   height: 100vh;
 
@@ -132,6 +136,7 @@ main.home {
   }
 }
 
+// About page
 main.about {
   padding: 10rem 0 10rem;
 
@@ -139,8 +144,12 @@ main.about {
     font-size: 2rem;
     margin-top: 3rem;
   }
+  p {
+    margin: 2rem 0 0;
+  }
 }
 
+// Work page
 main.work {
   padding: 10rem 0 10rem;
 
@@ -152,18 +161,20 @@ main.work {
   .projects {
     p {
       margin-top: 0;
-    }
-  }
-}
-
-main.work {
-  .projects {
-    p {
       text-transform: uppercase;
     }
   }
 }
 
+// Content page
+main.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// All pages
 .line {
   width: 8rem;
   height: 0.1rem;
@@ -171,10 +182,12 @@ main.work {
   transition: $darkModeTransition;
 }
 
+// Home page
 .heading {
   margin-bottom: 4rem;
 }
 
+//Footer
 .contact-logos {
   display: flex;
   justify-content: space-between;
@@ -182,6 +195,7 @@ main.work {
   gap: 1rem;
 }
 
+// Footer
 footer {
   width: 100%;
   background-color: $colourOne;
@@ -198,6 +212,7 @@ footer {
   gap: 1rem;
 }
 
+// Footer
 .copyright {
   display: flex;
   flex-direction: column;
@@ -211,16 +226,18 @@ footer {
   }
 }
 
+// About page
 .tech-stack {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
   ul { //TODO sort svg fill
-    list-style-image: url("data:image/svg+xml;utf8,<svg width='8' height='12' viewBox='0 0 8 12' xmlns='http://www.w3.org/2000/svg'> <path fill-rule='evenodd' clip-rule='evenodd' d='M0.167368 0.127671C0.390524 -0.0425571 0.752333 -0.0425571 0.97549 0.127671L7.83263 5.35844C8.05579 5.52867 8.05579 5.80466 7.83263 5.97489L0.97549 11.2057C0.752333 11.3759 0.390524 11.3759 0.167368 11.2057C-0.0557892 11.0354 -0.0557892 10.7594 0.167368 10.5892L6.62045 5.66667L0.167368 0.744123C-0.0557892 0.573895 -0.0557892 0.2979 0.167368 0.127671Z' fill='%23352D29'/></svg>");
+    list-style: url("data:image/svg+xml;utf8,<svg width='8' height='12' viewBox='0 0 8 12' xmlns='http://www.w3.org/2000/svg'> <path fill-rule='evenodd' clip-rule='evenodd' d='M0.167368 0.127671C0.390524 -0.0425571 0.752333 -0.0425571 0.97549 0.127671L7.83263 5.35844C8.05579 5.52867 8.05579 5.80466 7.83263 5.97489L0.97549 11.2057C0.752333 11.3759 0.390524 11.3759 0.167368 11.2057C-0.0557892 11.0354 -0.0557892 10.7594 0.167368 10.5892L6.62045 5.66667L0.167368 0.744123C-0.0557892 0.573895 -0.0557892 0.2979 0.167368 0.127671Z' fill='%23352D29'/></svg>");
     padding-left: 1rem;
   }
 }
 
+// Contact page
 .contact-info {
   // TODO create underline and none mixin
   a,
@@ -232,5 +249,74 @@ footer {
     text-decoration: underline;
     font-weight: inherit;
   }
+}
 
+//
+
+// Desktop
+@media screen and (min-width: 900px) {
+  main.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    nav {
+      margin: 0;
+    }
+
+    .heading {
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 8rem;
+    }
+  }
+
+  body {
+    margin: 0;
+  }
+
+  footer {
+    height: 100%;
+    width: 8%;
+    background-color: $colourOne;
+    transition: $darkModeTransition;
+    padding: 2rem 0;
+
+
+    position: fixed;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+
+  p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+    transform: rotate(-90deg);
+
+    white-space: nowrap;
+  }
+
+  .line {
+    width: 0.1rem;
+    height: 12rem;
+    background-color: $colourTwo;
+    transition: $darkModeTransition;
+  }
+
+  .contact-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+  }
 }
