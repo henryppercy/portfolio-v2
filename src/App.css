@@ -182,7 +182,7 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 .tech-stack ul {
-  list-style-image: url("../images/chevron.svg");
+  list-style-image: url("data:image/svg+xml;utf8,<svg width='8' height='12' viewBox='0 0 8 12' xmlns='http://www.w3.org/2000/svg'> <path fill-rule='evenodd' clip-rule='evenodd' d='M0.167368 0.127671C0.390524 -0.0425571 0.752333 -0.0425571 0.97549 0.127671L7.83263 5.35844C8.05579 5.52867 8.05579 5.80466 7.83263 5.97489L0.97549 11.2057C0.752333 11.3759 0.390524 11.3759 0.167368 11.2057C-0.0557892 11.0354 -0.0557892 10.7594 0.167368 10.5892L6.62045 5.66667L0.167368 0.744123C-0.0557892 0.573895 -0.0557892 0.2979 0.167368 0.127671Z' fill='%23352D29'/></svg>");
   padding-left: 1rem;
 }
 
