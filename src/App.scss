@@ -61,20 +61,18 @@ p {
   margin: 0.2rem;
 }
 
-nav {
-  text-decoration: none;
-
-  align-self: center;
-}
-
 section {
   height: 100vh;
   display: grid;
-  grid-template-rows: 15% 1fr 40% 10%;
+  grid-template-rows: 15% 1fr 10%;
 }
 
 svg {
   fill: $dark;
+}
+
+nav {
+  margin-bottom: 1rem;
 }
 
 .home-heading {
@@ -89,8 +87,12 @@ svg {
   background-color: $dark;
 }
 
+.home-center-content {
+  align-self: end;
+}
+
 .heading {
-  align-self: center;
+  margin-bottom: 4rem;
 }
 
 .contact-logos {
