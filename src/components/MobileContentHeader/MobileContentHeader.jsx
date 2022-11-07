@@ -1,4 +1,5 @@
-import DarkModeToggle from "../components/DarkModeToggle";
+import './MobileContentHeader.scss';
+import MobileDarkModeToggle from "../MobileDarkModeToggle";
 import {Link} from "react-router-dom";
 
 const MobileContentHeader = () => {
@@ -8,7 +9,7 @@ const MobileContentHeader = () => {
                 <div className="line"></div>
                 <Link to="/"><a>HOME</a></Link>
             </div>
-            <DarkModeToggle></DarkModeToggle>
+            <MobileDarkModeToggle></MobileDarkModeToggle>
         </header>
     );
 }

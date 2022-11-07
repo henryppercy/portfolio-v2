@@ -1,0 +1,19 @@
+.home-header {
+  width: 100%;
+  padding: 2rem 2rem 1rem;
+  transition: background-color 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+  .home-header {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=MobileHomeHeader.css.map */

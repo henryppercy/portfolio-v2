@@ -1,6 +1,6 @@
 import React from "react";
 import useDarkMode from "use-dark-mode";
-import { useTheme } from "../../utils/useTheme";
+import { useTheme } from "../utils/useTheme";
 
 const MobileDarkModeToggle = () => {
     const darkMode = useDarkMode(true);

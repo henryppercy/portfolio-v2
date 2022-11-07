@@ -1,0 +1,31 @@
+header.content-page {
+  background-color: var(--bgColour);
+  width: 100%;
+  padding: 2rem 2rem 1rem 0;
+  transition: background-color 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.content-page div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header.content-page .line {
+  width: 6rem;
+  height: 0.1rem;
+  background-color: var(--textColour);
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 900px) {
+  .content-page {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=MobileContentHeader.css.map */

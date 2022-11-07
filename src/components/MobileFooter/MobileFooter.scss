@@ -1,0 +1,44 @@
+$colourOne: var(--bgColour);
+$darkModeTransition: background-color 0.3s ease-in-out;
+
+footer {
+  width: 100%;
+  background-color: $colourOne;
+  padding: 2rem;
+  transition: $darkModeTransition;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+
+  p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .mobile-footer {
+    display: none;
+  }
+}

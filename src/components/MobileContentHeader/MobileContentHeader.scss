@@ -1,0 +1,38 @@
+$colourOne: var(--bgColour);
+$colourTwo: var(--textColour);
+$darkModeTransition: background-color 0.3s ease-in-out;
+
+
+header.content-page {
+  background-color: $colourOne;
+  width: 100%;
+  padding: 2rem 2rem 1rem 0;
+  transition: $darkModeTransition;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .line {
+    width: 6rem;
+    height: 0.1rem;
+    background-color: $colourTwo;
+    transition: $darkModeTransition;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content-page {
+    display: none;
+  }
+}
