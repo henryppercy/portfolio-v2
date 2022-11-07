@@ -1,0 +1,19 @@
+main.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info {
+  // TODO create underline and none mixin
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: inherit;
+  }
+}

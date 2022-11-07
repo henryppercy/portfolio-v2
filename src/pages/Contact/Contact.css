@@ -1,0 +1,18 @@
+main.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info a,
+.contact-info a:link,
+.contact-info a:visited,
+.contact-info a:hover,
+.contact-info a:active {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: inherit;
+}
+
+/*# sourceMappingURL=Contact.css.map */

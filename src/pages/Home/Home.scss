@@ -1,0 +1,64 @@
+$darkModeTransition: background-color 0.3s ease-in-out;
+$body-text: 'Helvetica', sans-serif;
+$colourOne: var(--bgColour);
+$colourTwo: var(--textColour);
+
+// TODO add mixin for header
+header.home {
+  width: 100%;
+  padding: 2rem 2rem 1rem;
+  transition: $darkModeTransition;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main.home {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  h2 {
+    font-family: $body-text;
+    font-size: 1rem;
+    text-transform: none;
+    margin: 0;
+  }
+}
+
+.heading {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 900px) {
+  main.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    nav {
+      margin: 0;
+    }
+
+    .heading {
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 8rem;
+    }
+  }
+
+  body {
+    margin: 0;
+  }
+}

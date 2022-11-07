@@ -1,5 +1,6 @@
-import MobileContentHeader from "../components/MobileContentHeader";
-import MobileFooter from "../components/MobileFooter";
+import './Contact.scss';
+import MobileContentHeader from "../../components/MobileContentHeader/MobileContentHeader";
+import MobileFooter from "../../components/MobileFooter/MobileFooter";
 
 const Contact = () => {
     return (

@@ -1,0 +1,13 @@
+main.work {
+  padding: 10rem 0 10rem;
+}
+main.work h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+main.work .projects p {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=Work.css.map */
