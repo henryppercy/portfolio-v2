@@ -1,10 +1,10 @@
-import DarkModeToggle from "./DarkModeToggle";
+import MobileDarkModeToggle from "./MobileDarkModeToggle/MobileDarkModeToggle";
 
 const MobileHomeHeader = () => {
     return (
         <header className="home">
             <div className="line"></div>
-            <DarkModeToggle></DarkModeToggle>
+            <MobileDarkModeToggle></MobileDarkModeToggle>
         </header>
     );
 }
