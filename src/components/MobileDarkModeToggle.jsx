@@ -2,7 +2,7 @@ import React from "react";
 import useDarkMode from "use-dark-mode";
 
 const MobileDarkModeToggle = () => {
-    const darkMode = useDarkMode(true);
+    const darkMode = useDarkMode();
 
     return (
         <svg onClick={darkMode.toggle} className="mobile-toggle" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
