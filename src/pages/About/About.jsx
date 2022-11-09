@@ -1,11 +1,16 @@
 import './About.scss'
 import MobileContentHeader from "../../components/MobileContentHeader/MobileContentHeader";
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
+import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
+import DesktopRightSideBar from "../../components/DesktopRightSideBar/DesktopRightSideBar";
 
 const About = () => {
     return (
         <section>
             <MobileContentHeader></MobileContentHeader>
+            <DesktopLeftSideBar></DesktopLeftSideBar>
+            <DesktopRightSideBar></DesktopRightSideBar>
+
             <main className="about">
                 <h2>About</h2>
                 <p>Hi, I’m Henry, an aspiring Software Developer. I’m currently completing the Full Stack Track course at iO Academy. I’m currently open and looking for my first Software Engineer job.</p>

@@ -1,9 +1,9 @@
 import './Home.scss'
 import {Link} from "react-router-dom";
-import MobileDarkModeToggle from "../../components/MobileDarkModeToggle";
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
 import MobileHomeHeader from "../../components/MobileHomeHeader/MobileHomeHeader";
 import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
+import DesktopRightSideBar from "../../components/DesktopRightSideBar/DesktopRightSideBar";
 
 const Home = () => {
 
@@ -11,6 +11,7 @@ const Home = () => {
         <section>
             <MobileHomeHeader></MobileHomeHeader>
             <DesktopLeftSideBar></DesktopLeftSideBar>
+            <DesktopRightSideBar></DesktopRightSideBar>
 
             <main className="home">
                 <div className="heading">
@@ -23,9 +24,6 @@ const Home = () => {
                     <Link to="/contact"><h3>Contact</h3></Link>
                 </nav>
             </main>
-
-
-
             <MobileFooter></MobileFooter>
         </section>
     );

@@ -1,11 +1,15 @@
 import './Work.scss';
 import MobileContentHeader from "../../components/MobileContentHeader/MobileContentHeader";
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
+import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
+import DesktopRightSideBar from "../../components/DesktopRightSideBar/DesktopRightSideBar";
 
 const Work = () => {
     return (
         <section>
             <MobileContentHeader></MobileContentHeader>
+            <DesktopLeftSideBar></DesktopLeftSideBar>
+            <DesktopRightSideBar></DesktopRightSideBar>
 
             <main className="work">
                 <h2>Work</h2>

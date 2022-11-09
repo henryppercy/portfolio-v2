@@ -1,14 +1,11 @@
 import React from "react";
 import useDarkMode from "use-dark-mode";
-import { useTheme } from "../utils/useTheme";
 
 const MobileDarkModeToggle = () => {
     const darkMode = useDarkMode(true);
-    const theme = useTheme();
 
     return (
         <svg onClick={darkMode.toggle} className="mobile-toggle" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            {theme === "dark-mode" ? "Light mode" : "Dark mode"}
             <path d="M15 20.625C11.8934 20.625 9.375 18.1066 9.375 15C9.375 11.8934 11.8934 9.375 15 9.375C18.1066 9.375 20.625 11.8934 20.625 15C20.625 18.1066 18.1066 20.625 15 20.625ZM15 22.5C19.1421 22.5 22.5 19.1421 22.5 15C22.5 10.8579 19.1421 7.5 15 7.5C10.8579 7.5 7.5 10.8579 7.5 15C7.5 19.1421 10.8579 22.5 15 22.5Z"/>
             <path d="M15 0C15.5178 0 15.9375 0.419733 15.9375 0.9375V4.6875C15.9375 5.20527 15.5178 5.625 15 5.625C14.4822 5.625 14.0625 5.20527 14.0625 4.6875V0.9375C14.0625 0.419733 14.4822 0 15 0Z"/>
             <path d="M15 24.375C15.5178 24.375 15.9375 24.7947 15.9375 25.3125V29.0625C15.9375 29.5803 15.5178 30 15 30C14.4822 30 14.0625 29.5803 14.0625 29.0625V25.3125C14.0625 24.7947 14.4822 24.375 15 24.375Z"/>
