@@ -1,0 +1,65 @@
+$colourOne: var(--bgColour);
+$colourTwo: var(--textColour);
+$darkModeTransition: background-color 0.3s ease-in-out;
+
+.right-sidebar {
+  height: 100%;
+  width: 8%;
+  transition: $darkModeTransition;
+  padding: 0;
+
+  position: fixed;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+form {
+  margin: 5rem;
+  transform: rotate(90deg);
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.09rem solid $colourTwo;
+}
+
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+  transition: 30ms background-color ease-in-out;
+  background-color: $colourOne;
+}
+
+input[type="radio"]:checked {
+  background-color: $colourTwo;
+}
+
+@media screen and (min-width: 900px) {
+
+  .line {
+    width: 0.1rem;
+    height: 6rem;
+    background-color: $colourTwo;
+    transition: $darkModeTransition;
+
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .right-sidebar {
+    display: none;
+  }
+}
