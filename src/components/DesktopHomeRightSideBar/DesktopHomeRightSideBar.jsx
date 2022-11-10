@@ -8,10 +8,10 @@ const DesktopRightSideBar = () => {
         <div className="right-sidebar">
             <div className="line"></div>
             <form>
-            <input type="radio" name="dark" onClick={darkMode.disable} />
-            <label>LIGHT</label>
-            <input type="radio" name="dark" onClick={darkMode.enable} checked={darkMode.value}/>
-            <label>DARK</label>
+                <label>LIGHT</label>
+                <input type="radio" name="dark" onClick={darkMode.disable} />
+                <label>DARK</label>
+                <input type="radio" name="dark" onClick={darkMode.enable} checked={darkMode.value}/>
             </form>
 
         </div>
