@@ -2,11 +2,15 @@
 .dark-mode {
   --bgColour: #352D29;
   --textColour: #FAF4E4;
+  --scrollBar: rgba(250, 244, 228, 0.1254901961);
+  --scrollTrack: rgba(53, 45, 41, 0.1254901961);
 }
 
 .light-mode {
   --bgColour: #FAF4E4;
   --textColour: #352D29;
+  --scrollBar: rgba(53, 45, 41, 0.1254901961);
+  --scrollTrack: rgba(250, 244, 228, 0.1254901961);
 }
 
 *, *::before, *::after {
@@ -74,6 +78,21 @@ nav {
 
 section {
   height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollBar);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.1rem;
+  border-radius: 0.5rem;
+  background: var(--textColour);
 }
 
 .line {
