@@ -1,4 +1,4 @@
-.right-sidebar {
+.right-content-sidebar {
   height: 100%;
   width: 8%;
   transition: background-color 0.3s ease-in-out;
@@ -7,17 +7,34 @@
   right: 0;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
-
-form {
-  font-size: 0.8rem;
-  margin: 4rem;
-  transform: rotate(90deg);
+.right-content-sidebar .top {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  gap: 3.9rem;
+}
+.right-content-sidebar .home {
+  transform: rotate(90deg);
+}
+.right-content-sidebar .bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.right-content-sidebar form {
+  font-size: 0.8rem;
+  margin: 0;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: start;
   gap: 0.5rem;
+}
+.right-content-sidebar .line {
+  border-radius: 2rem;
 }
 
 input[type=radio] {
@@ -50,9 +67,12 @@ input[type=radio]:checked {
   }
 }
 @media screen and (max-width: 900px) {
-  .right-sidebar {
+  .right-content-sidebar {
+    display: none;
+  }
+  .line {
     display: none;
   }
 }
 
-/*# sourceMappingURL=DesktopHomeRightSideBar.css.map */
+/*# sourceMappingURL=DesktopContentRightSideBar.css.map */

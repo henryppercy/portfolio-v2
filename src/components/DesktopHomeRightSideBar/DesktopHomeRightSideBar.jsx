@@ -1,7 +1,7 @@
-import './DesktopRightSideBar.scss';
+import './DesktopHomeRightSideBar.scss';
 import useDarkMode from "use-dark-mode";
 
-const DesktopRightSideBar = () => {
+const DesktopHomeRightSideBar = () => {
     const darkMode = useDarkMode();
 
     return (
@@ -18,4 +18,4 @@ const DesktopRightSideBar = () => {
     );
 }
 
-export default DesktopRightSideBar;
+export default DesktopHomeRightSideBar;
