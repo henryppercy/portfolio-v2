@@ -8,6 +8,14 @@ $themes: (
         textColour: (
                 darkTheme: $light,
                 lightTheme: $dark
+        ),
+        scrollBar: (
+                darkTheme: $scrollOne,
+                lightTheme: $scrollTwo
+        ),
+        scrollTrack: (
+                darkTheme: $scrollTwo,
+                lightTheme: $scrollOne
         )
 );
 
