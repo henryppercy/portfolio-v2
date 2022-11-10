@@ -33,7 +33,7 @@ main.home h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
   }
   main.home nav {
     margin: 0;
@@ -41,8 +41,14 @@ main.home h2 {
   main.home .heading {
     margin: 0;
   }
+  main.home h1 {
+    font-size: 4rem;
+  }
+  main.home h2 {
+    font-size: 1.3rem;
+  }
   main.home h3 {
-    font-size: 8rem;
+    font-size: 11rem;
   }
   body {
     margin: 0;

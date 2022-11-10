@@ -2,14 +2,14 @@ import './Contact.scss';
 import MobileContentHeader from "../../components/MobileContentHeader/MobileContentHeader";
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
 import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
-import DesktopRightSideBar from "../../components/DesktopRightSideBar/DesktopRightSideBar";
+import DesktopContentRightSideBar from "../../components/DesktopContentRightSideBar/DesktopContentRightSideBar";
 
 const Contact = () => {
     return (
         <section>
             <MobileContentHeader></MobileContentHeader>
             <DesktopLeftSideBar></DesktopLeftSideBar>
-            <DesktopRightSideBar></DesktopRightSideBar>
+            <DesktopContentRightSideBar></DesktopContentRightSideBar>
 
             <main className="contact">
                 <h2>Get In Touch</h2>

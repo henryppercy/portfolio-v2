@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
 import MobileHomeHeader from "../../components/MobileHomeHeader/MobileHomeHeader";
 import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
-import DesktopRightSideBar from "../../components/DesktopRightSideBar/DesktopRightSideBar";
+import DesktopHomeRightSideBar from "../../components/DesktopHomeRightSideBar/DesktopHomeRightSideBar";
 
 const Home = () => {
 
@@ -11,7 +11,7 @@ const Home = () => {
         <section>
             <MobileHomeHeader></MobileHomeHeader>
             <DesktopLeftSideBar></DesktopLeftSideBar>
-            <DesktopRightSideBar></DesktopRightSideBar>
+            <DesktopHomeRightSideBar></DesktopHomeRightSideBar>
 
             <main className="home">
                 <div className="heading">

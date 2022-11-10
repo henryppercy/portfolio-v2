@@ -1,12 +1,13 @@
 main.about {
-  padding: 10rem 0 10rem;
+  padding: 7rem 0 10rem;
+  height: 100vh;
 }
 main.about h3 {
   font-size: 2rem;
-  margin-top: 3rem;
+  margin: 2rem 0 0.3rem;
 }
 main.about p {
-  margin: 2rem 0 0;
+  margin: 0.3rem;
 }
 
 .tech-stack {
@@ -16,6 +17,16 @@ main.about p {
 .tech-stack ul {
   list-style: url("data:image/svg+xml;utf8,<svg width='8' height='12' viewBox='0 0 8 12' xmlns='http://www.w3.org/2000/svg'> <path fill-rule='evenodd' clip-rule='evenodd' d='M0.167368 0.127671C0.390524 -0.0425571 0.752333 -0.0425571 0.97549 0.127671L7.83263 5.35844C8.05579 5.52867 8.05579 5.80466 7.83263 5.97489L0.97549 11.2057C0.752333 11.3759 0.390524 11.3759 0.167368 11.2057C-0.0557892 11.0354 -0.0557892 10.7594 0.167368 10.5892L6.62045 5.66667L0.167368 0.744123C-0.0557892 0.573895 -0.0557892 0.2979 0.167368 0.127671Z' fill='%23352D29'/></svg>");
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  main.about {
+    width: 80%;
+    padding: 5rem 10rem 0;
+  }
+  main.about h2 {
+    font-size: 10rem;
+  }
 }
 
 /*# sourceMappingURL=About.css.map */

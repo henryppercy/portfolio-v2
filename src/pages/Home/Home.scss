@@ -43,7 +43,7 @@ main.home {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 
     nav {
       margin: 0;
@@ -53,8 +53,16 @@ main.home {
       margin: 0;
     }
 
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
     h3 {
-      font-size: 8rem;
+      font-size: 11rem;
     }
   }
 
