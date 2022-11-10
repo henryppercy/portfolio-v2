@@ -6,6 +6,7 @@ const darkTheme = "dark-mode";
 
 export const useTheme = () => {
     const darkMode = useDarkMode();
+
     const [theme, setTheme] = useState(darkTheme);
 
     useEffect(() => {
