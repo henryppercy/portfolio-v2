@@ -11,12 +11,27 @@ main.work .links {
 }
 main.work .projects p {
   margin-top: 0;
-  text-transform: uppercase;
+}
+main.work .project-tech {
+  width: fit-content;
+  font-weight: 600;
+  color: var(--bgColour);
+  background-color: var(--textColour);
+  padding: 0.2rem;
+  border-radius: 0.1rem 0.5rem;
+  margin: 0.3rem 0 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}
+main.work .project-tech p {
+  margin: 0;
 }
 
 @media screen and (min-width: 900px) {
   main.work {
-    padding: 5rem 10rem 0;
+    padding: 4rem 10rem 0;
   }
   main.work h2 {
     font-size: 10rem;
@@ -44,7 +59,8 @@ main.work .projects p {
   main.work .projects {
     overflow: auto;
     width: 80%;
-    height: 75%;
+    height: 80%;
+    padding: 0 0.3rem;
     justify-self: center;
     align-self: center;
   }
