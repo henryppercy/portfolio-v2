@@ -1,8 +1,9 @@
 main.contact {
+  padding: 10rem 0 0;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
 }
 
 .contact-info a,
@@ -18,7 +19,9 @@ main.contact {
 @media screen and (min-width: 900px) {
   main.contact {
     width: 70%;
-    padding: 3rem 10rem 0;
+    display: flex;
+    padding: 0 10rem;
+    justify-content: center;
   }
   h2 {
     font-size: 10rem;

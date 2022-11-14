@@ -63,7 +63,17 @@ main.home {
 
     h3 {
       font-size: 11rem;
+      display: block;
+      transition: 0.15s;
     }
+
+    h3:hover {
+      transform: skewX( -15deg ) translateX( 15px );
+    }
+}
+
+  .project {
+    padding: 0 0 1rem;
   }
 
   body {

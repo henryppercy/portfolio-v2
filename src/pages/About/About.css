@@ -22,7 +22,7 @@ main.about p {
 @media screen and (min-width: 900px) {
   main.about {
     width: 80%;
-    padding: 5rem 10rem 0;
+    padding: 4rem 10rem 0;
   }
   main.about h2 {
     font-size: 10rem;
