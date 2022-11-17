@@ -13,7 +13,7 @@ const Contact = () => {
 
             <main className="contact">
                 <h2>Get In Touch</h2>
-                <p>I’m currently open and looking for work so please get in touch if you have any Junior Developer roles available.</p>
+                <p>I’m currently open and looking for work so please get in touch if you have any Software Developer roles available.</p>
                 <p>The best way to reach me is to send an email but feel free to reach out on LinkedIn.</p>
                 <div className="contact-info">
                     <p>Email: <a href="mailto:henrypercydev@gmail.com">henrypercydev@gmail.com</a></p>
