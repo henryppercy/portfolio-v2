@@ -25,6 +25,15 @@ $darkModeTransition: background-color 0.3s ease-in-out;
 
   .home {
     transform: rotate(90deg);
+    padding: 0.15rem;
+    border-radius: 0.1rem 0.5rem;
+    box-shadow: inset 0 0 0 0 $colourTwo;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+  .home:hover {
+    color: $colourOne;
+    box-shadow: inset 10rem 0 0 0 $colourTwo;
   }
 
   .bottom {
