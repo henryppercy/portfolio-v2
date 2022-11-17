@@ -5,6 +5,9 @@ main.work h3 {
   font-size: 2rem;
   margin-top: 2rem;
 }
+main.work h4 {
+  margin: 1rem 0 0.4rem;
+}
 main.work .links {
   display: flex;
   gap: 1rem;
@@ -29,6 +32,10 @@ main.work .project-tech p {
   margin: 0;
 }
 
+.project {
+  padding: 0 0 2rem;
+}
+
 @media screen and (min-width: 900px) {
   main.work {
     padding: 4rem 10rem 0;
@@ -41,10 +48,11 @@ main.work .project-tech p {
     margin-top: 0;
   }
   main.work .content {
-    height: 60vh;
-    width: 75vw;
+    margin: 0;
+    height: 65vh;
+    width: auto;
     display: grid;
-    grid-template-columns: 2.5fr 0.1fr 3fr;
+    grid-template-columns: 2fr 0.1fr 4fr;
     grid-gap: 0.5rem;
   }
   main.work .line {
@@ -53,7 +61,7 @@ main.work .project-tech p {
     height: 30vh;
   }
   main.work .description {
-    padding: 0 3rem;
+    padding: 0 1rem;
     align-self: center;
   }
   main.work .projects {

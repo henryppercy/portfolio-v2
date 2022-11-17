@@ -3,45 +3,54 @@ import MobileContentHeader from "../../components/MobileContentHeader/MobileCont
 import MobileFooter from "../../components/MobileFooter/MobileFooter";
 import DesktopLeftSideBar from "../../components/DesktopLeftSideBar/DesktopLeftSideBar";
 import DesktopContentRightSideBar from "../../components/DesktopContentRightSideBar/DesktopContentRightSideBar";
-import {useState} from "react";
 
 const Work = () => {
 
     const projects = [
         {
-            title: 'React Invoicing',
-            tech: 'JavaScript / React / Bootstrap',
-            description: 'This is a Front-end built on supplied wireframes which pulled from a pre-existing API. ' +
-                'The app is built in ReactJS and uses Bootstrap for styling.',
-            github: 'https://github.com/iO-Academy/2022-aug-react-invoice-app',
-            live: '',
-        },
-        {
             title: 'Furniture Store API',
             tech: 'PHP / OOP / SQL',
-            description: 'This is an API which was built to a given specification and output to a pre-built ' +
-                '‘Furniture Store’ front-end. The API is written object oriented in PHP working to SOLID principals.',
+            description: 'This is an API which is built for a fictional furniture store, given pre-existing API ' +
+                'documentation of which end-points are defined. This is built Object Oriented with PHP and SQL. ',
+            aim : 'To demonstrate an understanding of Object Oriented Programming working to ' +
+                'SOLID principles, as well as the fundamentals of building an API. ',
             github: 'https://github.com/iO-Academy/2022-aug-furniture-store-be',
             live: '',
         },
         {
+            title: 'React Invoicing',
+            tech: 'JavaScript / React / Bootstrap',
+            description: 'This is a front-end for an invoicing application which pulls data from a pre-built API. ' +
+                'The app is built in ReactJS and is styled with Bootstrap based on supplied wireframes for each ' +
+                'user story.',
+            aim : 'To display an understanding of React fundamentals such as ' +
+                'state management, component based design, and JSX; as well as using fetch to get and manipulate ' +
+                'data from an API.',
+            github: 'https://github.com/iO-Academy/2022-aug-react-invoice-app',
+            live: '2022-aug-react-invoice-app.dev.io-academy.uk',
+        },
+        {
             title: 'Hawk Maze',
             tech: 'JavaScript',
-            description: 'This is a simple maze game which is themed around our iO Academy team name, ‘The Hawks’. ' +
-                'The aim is to navigate through the maze without moving the cursor off the path, or colliding with ' +
+
+            description: 'A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. ' +
+                'The aim is to navigate through the maze without moving the cursor off the path or colliding with ' +
                 'moving obstacles. This was built with JavaScript, CSS, and HTML.',
+            aim : 'To showcase JavaScript fundamentals such as handling events ' +
+                'and manipulating the DOM.',
             github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
             live: 'https://dev.io-academy.uk/projects/2022-aug/2022-aug-hawkmaze/',
         },
         {
             title: 'The Coffee Collection',
             tech: 'PHP / SQL',
-            description: 'This is the first PHP app I built as part of the iO Academy course. The app stores ' +
-                'information about types of coffee and allows you to permanently add more items to the collection. ' +
-                'This is built functionally in PHP with an SQL database.',
+            description: 'The first PHP app I built as part of the iO Academy course. ' +
+                'The app stores information about types of coffee and allows you to permanently add more ' +
+                'items to the collection. This is built functionally in PHP with an SQL database. ',
+            aim : 'To showcase an understanding of programming fundamentals as well as ' +
+                'managing and manipulating data in a SQL database with HTTP requests.',
             github: 'https://github.com/henryppercy/coffee-collection',
             live: '',
-            image: '../../images/coffee-collection.png',
         },
     ];
 
@@ -55,6 +64,8 @@ const Work = () => {
                             <p>{projects.tech}</p>
                         </div>
                         <p>{projects.description}</p>
+                        <h4>Aim:</h4>
+                        <p>{projects.aim}</p>
                         <div className="links">
                             <a href={projects.github}>
                                 <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,9 +87,11 @@ const Work = () => {
                     <div className="project">
                         <h3 className="top">{projects.title}</h3>
                         <div className="project-tech">
-                            <p>{projects.tech}</p>
+                            {projects.tech}
                         </div>
                         <p>{projects.description}</p>
+                        <h4>Aim:</h4>
+                        <p>{projects.aim}</p>
                         <div className="links">
                             <a href={projects.github}>
                                 <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +111,7 @@ const Work = () => {
             <DesktopLeftSideBar></DesktopLeftSideBar>
             <DesktopContentRightSideBar></DesktopContentRightSideBar>
             <main className="work">
-                <h2>Work</h2>
+                <h2>Projects</h2>
                 <div className="content">
                     <div className="description">
                         <p>This is a selection of projects and products that I have built ranging from PHP to React. Feel free to test out the live apps and explore the code on <a href="https://github.com/henryppercy">Github</a>.</p>
