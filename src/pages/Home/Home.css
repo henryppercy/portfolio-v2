@@ -55,9 +55,6 @@ main.home h2 {
   main.home h3:hover {
     transform: skewX(-15deg) translateX(15px);
   }
-  .project {
-    padding: 0 0 1rem;
-  }
   body {
     margin: 0;
   }

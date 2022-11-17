@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
                 <nav>
                     <Link to="/about"><h3>About</h3></Link>
-                    <Link to="/work"><h3>Work</h3></Link>
+                    <Link to="/work"><h3>Projects</h3></Link>
                     <Link to="/contact"><h3>Contact</h3></Link>
                 </nav>
             </main>
