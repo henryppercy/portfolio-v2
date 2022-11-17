@@ -14,25 +14,38 @@ const About = () => {
             <main className="about">
                 <h2>About</h2>
                 <div className="content">
-                    <p>Hi, I’m Henry, an aspiring Software Developer. I’m currently completing the Full Stack Track course at iO Academy. I’m currently open and looking for my first Software Engineer job.</p>
-                    <h3>SKILLS</h3>
-                    <p>Agile Methodologies / Sprint Planning / Wireframing / Database Design / Scrum Master</p>
-                    <h3>TECHNOLOGY & TOOLING</h3>
-                    <div className="tech-stack">
-                        <ul>
-                            <li>JavaScript (ES6)</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>SCSS</li>
-                            <li>GIT</li>
-                        </ul>
-                        <ul>
-                            <li>PHP</li>
-                            <li>SQL</li>
-                            <li>MongoDB</li>
-                            <li>Figma</li>
-                            <li>Bootstrap</li>
-                        </ul>
+                    <div>
+                        <p>Hi, I’m Henry, an aspiring Software Developer.
+                            I’m currently completing the Full Stack Track course at iO Academy.</p>
+                        <h3>Background</h3>
+                        <p>I am and have always been passionate
+                            about technology and enjoy taking on challenging problems. Since a young age I
+                            have taken any and every opportunity to tackle technical problems - from building
+                            PCs for friends and family, to Environmental Sensors for my University Faculty to
+                            use in research projects.</p>
+                        <p> I now want to make solving these problems my career and
+                            am eager to step into the world of Software Development.</p>
+                    </div>
+                    <div>
+                        <h3>SKILLS</h3>
+                        <p>Agile Methodologies / Sprint Planning / Wireframing / Database Design / Scrum Master</p>
+                        <h3>TECHNOLOGY & TOOLING</h3>
+                        <div className="tech-stack">
+                            <ul>
+                                <li>JavaScript (ES6)</li>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>SCSS</li>
+                                <li>GIT</li>
+                            </ul>
+                            <ul>
+                                <li>PHP</li>
+                                <li>SQL</li>
+                                <li>MongoDB</li>
+                                <li>Figma</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </main>
