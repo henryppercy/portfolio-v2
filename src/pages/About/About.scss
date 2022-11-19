@@ -11,10 +11,15 @@ main.about {
     margin: 1rem 0;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   .content {
     height: 65vh;
     overflow: scroll;
     overflow-x: hidden;
+    padding-bottom: 3rem;
   }
 }
 
@@ -44,6 +49,10 @@ main.about {
 
     .content div {
       width: 50%;
+    }
+
+    .skills {
+      margin: 0;
     }
 
     h2 {

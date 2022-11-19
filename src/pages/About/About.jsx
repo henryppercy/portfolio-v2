@@ -15,8 +15,8 @@ const About = () => {
                 <h2>About</h2>
                 <div className="content">
                     <div>
-                        <p>Hi, I’m Henry, an aspiring Software Developer.
-                            I’m currently completing the Full Stack Track course at iO Academy.</p>
+                        <p>Hi, I’m Henry, a Full Stack Software Developer.
+                            I’m currently completing the Full Stack course at <a href="https://io-academy.uk/">iO Academy</a>.</p>
                         <h3>Background</h3>
                         <p>I am and have always been passionate
                             about technology and enjoy taking on challenging problems. Since a young age I
@@ -27,7 +27,7 @@ const About = () => {
                             am eager to step into the world of Software Development.</p>
                     </div>
                     <div>
-                        <h3>SKILLS</h3>
+                        <h3 className="skills">SKILLS</h3>
                         <p>Agile Methodologies / Sprint Planning / Wireframing / Database Design / Scrum Master</p>
                         <h3>TECHNOLOGY & TOOLING</h3>
                         <div className="tech-stack">
