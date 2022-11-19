@@ -27,7 +27,7 @@ const Work = () => {
                 'state management, component based design, and JSX; as well as using fetch to get and manipulate ' +
                 'data from an API.',
             github: 'https://github.com/iO-Academy/2022-aug-react-invoice-app',
-            live: '2022-aug-react-invoice-app.dev.io-academy.uk',
+            live: 'https://2022-aug-react-invoice-app.dev.io-academy.uk/',
         },
         {
             title: 'Hawk Maze',
@@ -50,7 +50,7 @@ const Work = () => {
             aim : 'To showcase an understanding of programming fundamentals as well as ' +
                 'managing and manipulating data in a SQL database with HTTP requests.',
             github: 'https://github.com/henryppercy/coffee-collection',
-            live: '',
+            live: 'https://2022-henryp.dev.io-academy.uk/coffeeCollection/',
         },
     ];
 
