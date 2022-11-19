@@ -10,22 +10,16 @@ const Work = () => {
         {
             title: 'Furniture Store API',
             tech: 'PHP / OOP / SQL',
-            description: 'This is an API which is built for a fictional furniture store, given pre-existing API ' +
-                'documentation of which end-points are defined. This is built Object Oriented with PHP and SQL. ',
-            aim : 'To demonstrate an understanding of Object Oriented Programming working to ' +
-                'SOLID principles, as well as the fundamentals of building an API. ',
+            description: <p>This is an <strong>API</strong> built in <strong>PHP</strong> to pull data through from an <strong>SQL</strong> database to a React frontend for a Furniture Store E-commerce site.</p>,
+            aim : <p>To demonstrate an understanding of <strong>Object Oriented Programming</strong> working to <strong>SOLID</strong> principles.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-furniture-store-be',
             live: '',
         },
         {
             title: 'React Invoicing',
             tech: 'JavaScript / React / Bootstrap',
-            description: 'This is a front-end for an invoicing application which pulls data from a pre-built API. ' +
-                'The app is built in ReactJS and is styled with Bootstrap based on supplied wireframes for each ' +
-                'user story.',
-            aim : 'To display an understanding of React fundamentals such as ' +
-                'state management, component based design, and JSX; as well as using fetch to get and manipulate ' +
-                'data from an API.',
+            description: <p>This is a <strong>React</strong> and <strong>Bootstrap</strong> frontend for an Invoicing Application which pulls data from a prebuilt <strong>RESTful API</strong>.</p>,
+            aim : <p>To display an understanding of <strong>React</strong> fundamentals such as <strong>state management</strong>, <strong>component based design</strong>, and <strong>JSX</strong>; as well as using <strong>HTTP requests</strong> to retrieve and manipulate data from an API.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-react-invoice-app',
             live: 'https://2022-aug-react-invoice-app.dev.io-academy.uk/',
         },
@@ -33,22 +27,16 @@ const Work = () => {
             title: 'Hawk Maze',
             tech: 'JavaScript',
 
-            description: 'A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. ' +
-                'The aim is to navigate through the maze without moving the cursor off the path or colliding with ' +
-                'moving obstacles. This was built with JavaScript, CSS, and HTML.',
-            aim : 'To showcase JavaScript fundamentals such as handling events ' +
-                'and manipulating the DOM.',
+            description: <p>A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. The aim is to navigate through the maze without moving the cursor off the path or colliding with moving obstacles. This was built with <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>HTML</strong>.</p>,
+            aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and manipulating the <strong>DOM</strong>.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
             live: 'https://dev.io-academy.uk/projects/2022-aug/2022-aug-hawkmaze/',
         },
         {
             title: 'The Coffee Collection',
             tech: 'PHP / SQL',
-            description: 'The first PHP app I built as part of the iO Academy course. ' +
-                'The app stores information about types of coffee and allows you to permanently add more ' +
-                'items to the collection. This is built functionally in PHP with an SQL database. ',
-            aim : 'To showcase an understanding of programming fundamentals as well as ' +
-                'managing and manipulating data in a SQL database with HTTP requests.',
+            description: <p>The first <strong>PHP</strong> app I built as part of the iO Academy course. The app stores information about types of coffee and allows you to permanently add more items to the collection. This is built functionally in <strong>PHP</strong> with an <strong>SQL</strong> database.</p>,
+            aim : <p>To showcase an understanding of programming fundamentals as well as managing and manipulating data in a <strong>SQL</strong> database with <strong>HTTP requests</strong>.</p>,
             github: 'https://github.com/henryppercy/coffee-collection',
             live: 'https://2022-henryp.dev.io-academy.uk/coffeeCollection/',
         },
@@ -63,9 +51,9 @@ const Work = () => {
                         <div className="project-tech">
                             <p>{projects.tech}</p>
                         </div>
-                        <p>{projects.description}</p>
-                        <h4>Aim:</h4>
-                        <p>{projects.aim}</p>
+                        {projects.description}
+                        <h4>Objective:</h4>
+                        {projects.aim}
                         <div className="links">
                             <a href={projects.github}>
                                 <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +78,7 @@ const Work = () => {
                             {projects.tech}
                         </div>
                         <p>{projects.description}</p>
-                        <h4>Aim:</h4>
+                        <h4>Objective:</h4>
                         <p>{projects.aim}</p>
                         <div className="links">
                             <a href={projects.github}>
