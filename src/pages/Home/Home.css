@@ -30,6 +30,7 @@ main.home h2 {
 
 @media screen and (min-width: 900px) {
   main.home {
+    padding-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
