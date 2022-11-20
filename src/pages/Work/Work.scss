@@ -24,6 +24,12 @@ main.work {
     }
   }
 
+.description {
+  a {
+    text-decoration: underline;
+  }
+}
+
   .project-tech {
     width: fit-content;
     font-weight: 600;

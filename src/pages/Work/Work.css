@@ -15,6 +15,9 @@ main.work .links {
 main.work .projects p {
   margin-top: 0;
 }
+main.work .description a {
+  text-decoration: underline;
+}
 main.work .project-tech {
   width: fit-content;
   font-weight: 600;

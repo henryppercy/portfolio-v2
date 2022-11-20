@@ -16,7 +16,7 @@ const Work = () => {
             live: '',
         },
         {
-            title: 'React Invoicing',
+            title: 'React Invoicing Frontend',
             tech: 'JavaScript / React / Bootstrap',
             description: <p>This is a <strong>React</strong> and <strong>Bootstrap</strong> frontend for an Invoicing Application which pulls data from a prebuilt <strong>RESTful API</strong>.</p>,
             aim : <p>To display an understanding of <strong>React</strong> fundamentals such as <strong>state management</strong>, <strong>component based design</strong>, and <strong>JSX</strong>; as well as using <strong>HTTP requests</strong> to retrieve and manipulate data from an API.</p>,
@@ -24,11 +24,11 @@ const Work = () => {
             live: 'https://2022-aug-react-invoice-app.dev.io-academy.uk/',
         },
         {
-            title: 'Hawk Maze',
+            title: 'JavaScript Maze Game',
             tech: 'JavaScript',
 
             description: <p>A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. The aim is to navigate through the maze without moving the cursor off the path or colliding with moving obstacles. This was built with <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>HTML</strong>.</p>,
-            aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and manipulating the <strong>DOM</strong>.</p>,
+            aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and <strong>DOM</strong> manipulation.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
             live: 'https://dev.io-academy.uk/projects/2022-aug/2022-aug-hawkmaze/',
         },
@@ -102,7 +102,12 @@ const Work = () => {
                 <h2>Projects</h2>
                 <div className="content">
                     <div className="description">
-                        <p>This is a selection of projects and products that I have built ranging from PHP to React. Feel free to test out the live apps and explore the code on <a href="https://github.com/henryppercy">Github</a>.</p>
+                        <p>I have recently completed a Full Stack Software Development course at <a href="https://io-academy.uk/">iO Academy</a>.
+                            While at iO I have worked on a range of applications designed to exercise and
+                            showcase my technical knowledge, from building robust APIs to responsive UIs,
+                            either individually or as part of a scrum team.</p>
+                        <p>This is a selection of projects I've built of the past few months ranging from PHP to React.
+                        Feel free to test out the live apps and explore the code on <a href="https://github.com/henryppercy">Github</a>.</p>
                     </div>
                     <div className="line"></div>
                     <div className="projects">
