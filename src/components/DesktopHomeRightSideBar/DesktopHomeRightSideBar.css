@@ -10,6 +10,9 @@
   justify-content: start;
   align-items: center;
 }
+.right-sidebar svg {
+  margin: 4rem;
+}
 
 form {
   font-size: 0.8rem;

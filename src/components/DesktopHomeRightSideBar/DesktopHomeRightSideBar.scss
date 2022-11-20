@@ -15,7 +15,12 @@ $darkModeTransition: background-color 0.3s ease-in-out;
   flex-direction: column;
   justify-content: start;
   align-items: center;
+
+  svg {
+    margin: 4rem;
+  }
 }
+
 
 form {
   font-size: 0.8rem;

@@ -56,6 +56,10 @@ $darkModeTransition: background-color 0.3s ease-in-out;
   .line {
     border-radius: 2rem;
   }
+
+  svg {
+    margin: 4rem;
+  }
 }
 
 input[type="radio"] {

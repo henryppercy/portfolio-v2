@@ -44,6 +44,9 @@
 .right-content-sidebar .line {
   border-radius: 2rem;
 }
+.right-content-sidebar svg {
+  margin: 4rem;
+}
 
 input[type=radio] {
   appearance: none;
