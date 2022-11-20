@@ -12,6 +12,7 @@ header.home {
 
 main.home {
   height: 100vh;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: end;
