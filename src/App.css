@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 .dark-mode {
   --bgColour: #352D29;
   --textColour: #FAF4E4;
@@ -45,14 +45,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: "Aladin", cursive;
+  font-family: "Staatliches", cursive;
   font-weight: normal;
   font-size: 3.4rem;
   margin: 0;
 }
 
 h2 {
-  font-family: "Aladin", cursive;
+  font-family: "Staatliches", cursive;
   font-weight: normal;
   font-size: 5rem;
   margin: 0;
@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Aladin", cursive;
+  font-family: "Staatliches", cursive;
   font-weight: normal;
   font-size: 5rem;
   margin: 0;
