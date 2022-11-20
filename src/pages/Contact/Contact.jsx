@@ -17,7 +17,7 @@ const Contact = () => {
                 <p>The best way to reach me is to send an email but feel free to reach out on LinkedIn.</p>
                 <div className="contact-info">
                     <p>Email: <a href="mailto:henrypercydev@gmail.com">henrypercydev@gmail.com</a></p>
-                    <p>Socials: <a href="https://www.linkedin.com/in/henry-b-percy/">LinkedIn</a>, <a href="https://github.com/henryppercy">Github</a></p>
+                    <p>Socials: <a href="https://www.linkedin.com/in/henry-b-percy/" target="_blank">LinkedIn</a>, <a href="https://github.com/henryppercy" target="_blank">Github</a></p>
                 </div>
             </main>
             <MobileFooter></MobileFooter>

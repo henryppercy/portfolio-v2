@@ -16,7 +16,7 @@ const About = () => {
                 <div className="content">
                     <div>
                         <p>Hi, I’m Henry, a Full Stack Software Developer.
-                            I’m currently completing the Full Stack course at <a href="https://io-academy.uk/">iO Academy</a>.</p>
+                            I’m currently completing the Full Stack course at <a href="https://io-academy.uk/" target="_blank">iO Academy</a>.</p>
                         <h3>Background</h3>
                         <p>I am and have always been passionate
                             about technology and enjoy taking on challenging problems. Since a young age I
