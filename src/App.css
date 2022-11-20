@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 .dark-mode {
   --bgColour: #03724B;
-  --textColour: #FAF2DA;
+  --textColour: #FEFBF6;
   --accentDark: #990000;
-  --accentLight: #FAF2DA;
+  --accentLight: #FEFBF6;
   --scrollBar: rgba(250, 242, 218, 0.1254901961);
   --scrollTrack: rgba(53, 45, 41, 0.1254901961);
 }
 
 .light-mode {
-  --bgColour: #FAF2DA;
+  --bgColour: #FEFBF6;
   --textColour: #03724B;
-  --accentDark: #FAF2DA;
+  --accentDark: #FEFBF6;
   --accentLight: #990000;
   --scrollBar: rgba(53, 45, 41, 0.1254901961);
   --scrollTrack: rgba(250, 242, 218, 0.1254901961);
@@ -49,14 +49,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", sans-serif;
   font-weight: normal;
   font-size: 3.4rem;
   margin: 0;
 }
 
 h2 {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", sans-serif;
   font-weight: normal;
   font-size: 5rem;
   margin: 0;
@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", sans-serif;
   font-weight: normal;
   font-size: 5rem;
   margin: 0;
