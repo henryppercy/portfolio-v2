@@ -9,6 +9,14 @@ $themes: (
                 darkTheme: $light,
                 lightTheme: $dark
         ),
+        accentDark: (
+                darkTheme: $accent,
+                lightTheme: $light,
+        ),
+        accentLight: (
+                darkTheme: $light,
+                lightTheme: $accent,
+        ),
         scrollBar: (
                 darkTheme: $scrollOne,
                 lightTheme: $scrollTwo

@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 .dark-mode {
-  --bgColour: #352D29;
-  --textColour: #FAF4E4;
-  --scrollBar: rgba(250, 244, 228, 0.1254901961);
+  --bgColour: #03724B;
+  --textColour: #FAF2DA;
+  --accentDark: #990000;
+  --accentLight: #FAF2DA;
+  --scrollBar: rgba(250, 242, 218, 0.1254901961);
   --scrollTrack: rgba(53, 45, 41, 0.1254901961);
 }
 
 .light-mode {
-  --bgColour: #FAF4E4;
-  --textColour: #352D29;
+  --bgColour: #FAF2DA;
+  --textColour: #03724B;
+  --accentDark: #FAF2DA;
+  --accentLight: #990000;
   --scrollBar: rgba(53, 45, 41, 0.1254901961);
-  --scrollTrack: rgba(250, 244, 228, 0.1254901961);
+  --scrollTrack: rgba(250, 242, 218, 0.1254901961);
 }
 
 *, *::before, *::after {
