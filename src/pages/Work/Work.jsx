@@ -30,7 +30,7 @@ const Work = () => {
             description: <p>A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. The aim is to navigate through the maze without moving the cursor off the path or colliding with moving obstacles. This was built with <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>HTML</strong>.</p>,
             aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and <strong>DOM</strong> manipulation.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
-            live: 'https://dev.io-academy.uk/projects/2022-aug/2022-aug-hawkmaze/',
+            live: 'https://2022-henryp.dev.io-academy.uk/Tony-the-Hawk-Pro-Mazer/',
         },
         {
             title: 'The Coffee Collection',
@@ -38,7 +38,7 @@ const Work = () => {
             description: <p>The first <strong>PHP</strong> app I built as part of the iO Academy course. The app stores information about types of coffee and allows you to permanently add more items to the collection. This is built functionally in <strong>PHP</strong> with an <strong>SQL</strong> database.</p>,
             aim : <p>To showcase an understanding of programming fundamentals as well as managing and manipulating data in a <strong>SQL</strong> database with <strong>HTTP requests</strong>.</p>,
             github: 'https://github.com/henryppercy/coffee-collection',
-            live: 'https://2022-henryp.dev.io-academy.uk/coffeeCollection/',
+            live: 'https://2022-henryp.dev.io-academy.uk/Coffee-Collection/',
         },
     ];
 
