@@ -8,12 +8,60 @@ const Work = () => {
 
     const projects = [
         {
+            title: 'Resturant Order Tracking API',
+            tech: 'PHP / Slim / SQL',
+            description: <p>This is a <strong>RESTful API</strong> built with <strong>PHP</strong> (Slim framework) and <strong>SQL</strong> to track restaurant orders.</p>,
+            aim : <p>The objective of this build is to demonstrate an understanding of <strong>Object Oriented Programming</strong> while working to <strong>SOLID</strong> principles, using the <strong>MVC</strong> design pattern.</p>,
+            github: 'https://github.com/henryppercy/restaurant-order-tracking-api',
+            live: '',
+        },
+        {
+            title: 'Robot Stores Frontend',
+            tech: 'TypeScript / React / Sass',
+            description: <p>A <strong>React</strong> frontend built for a fictional e-commerce store, 'Robot Stores', which sells Robot themed apparel.</p>,
+            aim : <p>To demonstrate my ability to build <strong>accessible</strong>, <strong>responsive</strong>, and visually appealing frontends while utilising the type safety offered by <strong>TypeScript</strong>.</p>,
+            github: 'https://github.com/henryppercy/robot-stores-fe',
+            live: '',
+        },
+        {
+            title: 'Robot Stores Backend',
+            tech: 'TypeScript / Node.js / Express.js / MongoDB',
+            description: <p>This is a <strong>Node.js</strong> backend built for a fictional e-commerce store, 'Robot Stores', which sells Robot themed apparel.</p>,
+            aim : <p>To demonstrate my ability to build <strong>robust</strong> and <strong>scalable</strong> backends.</p>,
+            github: 'https://github.com/henryppercy/robot-stores-be',
+            live: '',
+        },
+        {
+            title: 'JavaScript Maze Game',
+            tech: 'JavaScript / CSS / HTML',
+            description: <p>A maze game where the aim is to navigate through the maze without moving the cursor off the path or colliding with moving obstacles. This was built with <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>HTML</strong>.</p>,
+            aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and <strong>DOM</strong> manipulation.</p>,
+            github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
+            live: 'https://2022-henryp.dev.io-academy.uk/Tony-the-Hawk-Pro-Mazer/',
+        },
+        {
+            title: 'Bill Calculator',
+            tech: 'JavaScript / React / CSS',
+            description: <p>This is a calculator which allows a user to calculate how much each person owes given a bill total, tip percentage, and number of people.</p>,
+            aim : <p>The aim of this project is to practise building a <strong>React</strong> app which requires state to be manipulated and passed down between components.</p>,
+            github: 'https://github.com/henryppercy/bill-split-calculator',
+            live: 'https://henry-tip-calculator.netlify.app/',
+        },
+        {
             title: 'Furniture Store API',
             tech: 'PHP / OOP / SQL',
             description: <p>This is an <strong>API</strong> built in <strong>PHP</strong> to pull data through from an <strong>SQL</strong> database to a React frontend for a Furniture Store E-commerce site.</p>,
             aim : <p>To demonstrate an understanding of <strong>Object Oriented Programming</strong> working to <strong>SOLID</strong> principles.</p>,
             github: 'https://github.com/iO-Academy/2022-aug-furniture-store-be',
             live: '',
+        },
+        {
+            title: 'The Coffee Collection',
+            tech: 'PHP / SQL',
+            description: <p>The first <strong>PHP</strong> app I built as part of the iO Academy course. The app stores information about types of coffee and allows you to permanently add more items to the collection. This is built functionally in <strong>PHP</strong> with an <strong>SQL</strong> database.</p>,
+            aim : <p>To showcase an understanding of programming fundamentals as well as managing and manipulating data in a <strong>SQL</strong> database with <strong>HTTP requests</strong>.</p>,
+            github: 'https://github.com/henryppercy/coffee-collection',
+            live: 'https://2022-henryp.dev.io-academy.uk/Coffee-Collection/',
         },
         {
             title: 'React Invoicing Frontend',
@@ -24,21 +72,12 @@ const Work = () => {
             live: 'https://2022-aug-react-invoice-app.dev.io-academy.uk/',
         },
         {
-            title: 'JavaScript Maze Game',
-            tech: 'JavaScript',
-
-            description: <p>A simple maze game which is themed around our iO Academy team name, ‘The Hawks’. The aim is to navigate through the maze without moving the cursor off the path or colliding with moving obstacles. This was built with <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>HTML</strong>.</p>,
-            aim : <p>To showcase <strong>JavaScript</strong>, fundamentals such as using <strong>event handlers</strong> and <strong>DOM</strong> manipulation.</p>,
-            github: 'https://github.com/iO-Academy/2022-aug-hawkmaze',
-            live: 'https://2022-henryp.dev.io-academy.uk/Tony-the-Hawk-Pro-Mazer/',
-        },
-        {
-            title: 'The Coffee Collection',
-            tech: 'PHP / SQL',
-            description: <p>The first <strong>PHP</strong> app I built as part of the iO Academy course. The app stores information about types of coffee and allows you to permanently add more items to the collection. This is built functionally in <strong>PHP</strong> with an <strong>SQL</strong> database.</p>,
-            aim : <p>To showcase an understanding of programming fundamentals as well as managing and manipulating data in a <strong>SQL</strong> database with <strong>HTTP requests</strong>.</p>,
-            github: 'https://github.com/henryppercy/coffee-collection',
-            live: 'https://2022-henryp.dev.io-academy.uk/Coffee-Collection/',
+            title: 'This Portfolio',
+            tech: 'JavaScript / React / Sass',
+            description: <p>The portfolio you are currently looking at! Built with React and Sass.</p>,
+            aim : <p>To build an accessible and responsive website to show off my projects and introduce myself to employers along my Junior Developer journey.</p>,
+            github: 'https://github.com/henryppercy/portfolio-v3',
+            live: 'https://www.henrypercy.co.uk/',
         },
     ];
 
@@ -106,7 +145,7 @@ const Work = () => {
                             While at iO I have worked on a range of applications designed to exercise and
                             showcase my technical knowledge, from building robust APIs to responsive UIs,
                             either individually or as part of a scrum team.</p>
-                        <p>This is a selection of projects I've built of the past few months ranging from PHP to React.
+                        <p>This is a selection of projects I've built ranging from PHP to TypeScript.
                         Feel free to test out the live apps and explore the code on <a href="https://github.com/henryppercy" target="_blank">Github</a>.</p>
                     </div>
                     <div className="line"></div>
