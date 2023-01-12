@@ -21,7 +21,7 @@ const Work = () => {
             description: <p>A <strong>React</strong> frontend built for a fictional e-commerce store, 'Robot Stores', which sells Robot themed apparel.</p>,
             aim : <p>To demonstrate my ability to build <strong>accessible</strong>, <strong>responsive</strong>, and visually appealing frontends while utilising the type safety offered by <strong>TypeScript</strong>.</p>,
             github: 'https://github.com/henryppercy/robot-stores-fe',
-            live: '',
+            live: 'https://robot-stores.netlify.app/',
         },
         {
             title: 'Robot Stores Backend',
@@ -29,7 +29,7 @@ const Work = () => {
             description: <p>This is a <strong>Node.js</strong> backend built for a fictional e-commerce store, 'Robot Stores', which sells Robot themed apparel.</p>,
             aim : <p>To demonstrate my ability to build <strong>robust</strong> and <strong>scalable</strong> backends.</p>,
             github: 'https://github.com/henryppercy/robot-stores-be',
-            live: '',
+            live: 'https://robot-stores-be.2022-henryp.dev.io-academy.uk/products',
         },
         {
             title: 'JavaScript Maze Game',
